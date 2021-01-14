@@ -5,7 +5,6 @@ header{
         background: #FFFBF0;
         padding-bottom: 50px;
 }
-
 .container{
     background: #FFFBF0;
     width: 100%;
@@ -30,6 +29,10 @@ header{
 .text-highlight{
     color: #FABE4C;
 }
+.nav-item {
+    font-weight: bold;
+    margin: 5px 10px 5px 10px;
+}
 h1{
     font-size: 70px;
     font-weight: 700;
@@ -39,6 +42,9 @@ h1{
 h2{
     font-family: 'Bebas Neue', cursive;
     color: #363958;
+}
+.last-text{
+    color:orange;
 }
 button{
     padding: 0px 25px;
@@ -96,6 +102,11 @@ button{
 .footer-left-cards img {
     width: 60%;
 }
+.last-part{
+    background-color: rgb(252, 252, 252);
+    padding: 2% 0%;
+}
+
 
 /* Media Query  */
 @media only screen and (max-width: 752px) {
